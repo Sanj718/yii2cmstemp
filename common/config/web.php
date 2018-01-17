@@ -10,7 +10,8 @@ $config = [
     'as locale' => [
         'class' => common\behaviors\LocaleBehavior::class,
         'enablePreferredLanguage' => true
-    ]
+    ],
+
 ];
 
 if (YII_DEBUG) {

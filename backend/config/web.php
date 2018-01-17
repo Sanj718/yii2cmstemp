@@ -43,6 +43,9 @@ $config = [
             'class' => backend\modules\rbac\Module::class,
             'defaultRoute' => 'rbac-auth-item/index'
         ],
+        'cms' => [
+            'class' => 'yii2mod\cms\Module',
+        ],
     ],
     'as globalAccess' => [
         'class' => common\behaviors\GlobalAccessBehavior::class,
